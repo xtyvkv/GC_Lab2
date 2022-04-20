@@ -1,0 +1,14 @@
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\bin\Debug\netcoreapp3.1\GC_Lab2.exe
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\bin\Debug\netcoreapp3.1\GC_Lab2.deps.json
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\bin\Debug\netcoreapp3.1\GC_Lab2.runtimeconfig.json
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\bin\Debug\netcoreapp3.1\GC_Lab2.runtimeconfig.dev.json
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\bin\Debug\netcoreapp3.1\GC_Lab2.dll
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\bin\Debug\netcoreapp3.1\GC_Lab2.pdb
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\obj\Debug\netcoreapp3.1\GC_Lab2.csproj.AssemblyReference.cache
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\obj\Debug\netcoreapp3.1\GC_Lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\obj\Debug\netcoreapp3.1\GC_Lab2.AssemblyInfoInputs.cache
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\obj\Debug\netcoreapp3.1\GC_Lab2.AssemblyInfo.cs
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\obj\Debug\netcoreapp3.1\GC_Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\obj\Debug\netcoreapp3.1\GC_Lab2.dll
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\obj\Debug\netcoreapp3.1\GC_Lab2.pdb
+C:\Users\Christ\Documents\GC\repos\GC_Lab2\GC_Lab2\GC_Lab2\obj\Debug\netcoreapp3.1\GC_Lab2.genruntimeconfig.cache
