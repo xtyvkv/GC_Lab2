@@ -6,7 +6,7 @@ public class GC_Lab2
     {
         bool go = true;
 
-        Console.WriteLine("Learn your SQUARES AND CUBES >:[");
+        Console.WriteLine("Learn your squares and cubes!");
         Console.WriteLine();
 
         while (go == true)
@@ -16,33 +16,30 @@ public class GC_Lab2
             string input = Console.ReadLine();
             if (!int.TryParse(input, out inputInt))
             {
+                Console.WriteLine();
                 Console.WriteLine("Invalid input.");
             }
             /*
-            else if (inputInt >= Int32.MaxValue)
-            {
-                Console.WriteLine("You have exceeded the minimum or maximum number whose cube will fit in an integer.");
-            }
-            /* why does this only work if i enter the exact number. it should work for any number greater */
+          
             else
 
                 if (inputInt >= Int32.MaxValue)
                 {
                     Console.WriteLine("You have exceeded the minimum or maximum number whose cube will fit in an integer.");
                 }
+            */
             else
             {
                 powers powerTable = new powers();
                 Console.WriteLine();
-                Console.WriteLine($"Nice! {inputInt}! Look, it may be backwards, but here is a nice table for you:");
-                Console.WriteLine();
-                Console.WriteLine("Number  Squared   Cubed");
-                Console.WriteLine("======  =======  ======");
+                Console.WriteLine("Number\tSquared\tCubed");
+                Console.WriteLine("======\t=======\t======");
 
-                while (inputInt > 0)
+                for (int x = 0; x < inputInt; x++)
                 {
-                    Console.WriteLine(String.Format("{0,6} {1,8} {2,7}", inputInt, powerTable.Squared(inputInt), powerTable.Cube(inputInt)));
-                    inputInt--;
+                    Console.WriteLine($"{x + 1}\t{powerTable.Squared(x + 1)}\t{powerTable.Cube(x + 1)}");
+                    /*Console.WriteLine(String.Format("{0,6} {1,8} {2,7}", inputInt, powerTable.Squared(inputInt), powerTable.Cube(inputInt)));
+                    inputInt--;*/
                 }
             }
             Console.WriteLine();
@@ -58,7 +55,7 @@ public class GC_Lab2
             }
         }
         Console.WriteLine();
-        Console.WriteLine("BYE THEN.");
+        Console.WriteLine("Goodbye!");
     }
 }
 public class powers
