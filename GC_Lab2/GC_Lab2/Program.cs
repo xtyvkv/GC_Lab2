@@ -43,8 +43,8 @@ public class GC_Lab2
 
                 for (int x = 0; x < inputInt; x++)
                 {
-                    // Console.WriteLine($"{x + 1}\t{powerTable.Squared(x + 1)}\t{powerTable.Cube(x + 1)}");
-                    Console.WriteLine(String.Format("{0,5} {1,5} {2,5}",(x + 1),powerTable.Squared(x + 1),powerTable.Cube(x + 1)));
+                    Console.WriteLine($"{x + 1}\t{powerTable.Square(x + 1)}\t{powerTable.Cube(x + 1)}");
+                    // Console.WriteLine(String.Format("{0,5} {1,5} {2,5}",(x + 1),powerTable.Square(x + 1),powerTable.Cube(x + 1)));
                 }
             }
             Console.WriteLine();
@@ -65,7 +65,7 @@ public class GC_Lab2
 }
 public class powers
 {
-    public int Squared(int inputInt)
+    public int Square(int inputInt)
     {
         return inputInt * inputInt;
     }
