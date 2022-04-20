@@ -5,6 +5,7 @@ public class GC_Lab2
     static void Main(string[] args)
     {
         int inputInt;
+        bool inputIsWithin = true;
         Console.WriteLine("Please enter an integer.");
         string input = Console.ReadLine();
         if (!int.TryParse(input, out inputInt))
@@ -21,7 +22,11 @@ public class GC_Lab2
             Console.WriteLine();
             Console.WriteLine("Number\t Squared\t Cubed");
             Console.WriteLine("=======\t =======\t =======");
-            Console.WriteLine($"{inputInt}\t {powerTable.Squared(inputInt)}\t\t {powerTable.Cube(inputInt)}");
+            while (inputInt > 0)
+            {
+                Console.WriteLine("{0}\t {1}\t\t {2}", inputInt, powerTable.Squared(inputInt), powerTable.Cube(inputInt));
+                inputInt--;
+            }
         }
     }
 }
@@ -38,4 +43,5 @@ public class powers
         return inputInt * inputInt * inputInt;
     }
 }
+
 
