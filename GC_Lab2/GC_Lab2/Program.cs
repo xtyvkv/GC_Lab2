@@ -19,27 +19,32 @@ public class GC_Lab2
                 Console.WriteLine();
                 Console.WriteLine("Invalid input.");
             }
-            /*
-          
-            else
+            // Max value test
+            /*else
 
                 if (inputInt >= Int32.MaxValue)
                 {
                     Console.WriteLine("You have exceeded the minimum or maximum number whose cube will fit in an integer.");
-                }
-            */
+                }*/
+            // end max value test
             else
             {
                 powers powerTable = new powers();
                 Console.WriteLine();
-                Console.WriteLine("Number\tSquared\tCubed");
-                Console.WriteLine("======\t=======\t======");
+                // Working alignment
+                /*Console.WriteLine("Number\tSquared\tCubed");
+                Console.WriteLine("======\t=======\t=====");*/
+                // end working alignment
+
+                // right align test
+                Console.WriteLine(String.Format("{0,5} {1,5} {2,5}","Number","Squared","Cubed"));
+                Console.WriteLine(String.Format("{0,5} {1,5} {2,5}","======", "=======", "====="));
+                // end right align test
 
                 for (int x = 0; x < inputInt; x++)
                 {
-                    Console.WriteLine($"{x + 1}\t{powerTable.Squared(x + 1)}\t{powerTable.Cube(x + 1)}");
-                    /*Console.WriteLine(String.Format("{0,6} {1,8} {2,7}", inputInt, powerTable.Squared(inputInt), powerTable.Cube(inputInt)));
-                    inputInt--;*/
+                    /*Console.WriteLine($"{x + 1}\t{powerTable.Squared(x + 1)}\t{powerTable.Cube(x + 1)}");*/
+                    Console.WriteLine(String.Format("{0,5} {1,5} {2,5}",(x + 1),powerTable.Squared(x + 1),powerTable.Cube(x + 1)));
                 }
             }
             Console.WriteLine();
